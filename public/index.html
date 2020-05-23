@@ -1,0 +1,152 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>标题</title>
+  <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta content="telephone=no" name="format-detection">
+  <meta content="email=no" name="format-detection">
+  <script src="./third-libs/vue.js"></script>
+  <link rel="stylesheet" href="./third-libs/animate.min.css">
+  <link rel="stylesheet" href="./third-libs/swiper.min.css">
+  <script src="./third-libs/swiper.min.js"></script>
+  <script src="./third-libs/swiper-animation.umd.min.js"></script>
+  <script>window.__work = {"id":8,"title":"标题","description":"描述","cover_image_url":"/uploads/66a9ba5ca2514a24b0a60bc537e6611f.png","pages":[{"uuid":1589961964930,"title":"","elements":[{"name":"lbp-background","uuid":1589961964930,"pluginProps":{"uuid":1589961964930,"imgSrc":"/uploads/2ed9e651d67349af925b3dca89ef57fb.png","backgroundColor":"rgba(255, 255, 255, 0.2)"},"commonStyle":{"top":100,"left":100,"width":200,"height":200,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"acad-text","uuid":1589961984606,"pluginProps":{"uuid":1589961984606,"type":"","backgroundColor":"transparent","borderWidth":0,"borderRadius":0,"borderColor":"#ced4da","fontSize":34,"fontInput":"Acaadasd ","fontFamily":"Cooper Black1","color":"#000000","lineHeight":1},"commonStyle":{"top":30.25,"left":248,"width":273,"height":54.75,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"lbp-picture","uuid":1589962126722,"pluginProps":{"uuid":1589962126722,"imgSrc":"/img/acad-picture-placeholder.c1fc064f.png"},"commonStyle":{"top":10,"left":22,"width":170,"height":59,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"custom-rank","uuid":1589962190185,"pluginProps":{"uuid":1589962190185,"pluginType":"CUSTOM"},"commonStyle":{"top":170,"left":79,"width":200,"height":200,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"custom-tips","uuid":1589962221913,"pluginProps":{"uuid":1589962221913,"pluginType":"CUSTOM","color":"#000000","fontFamily":"Cooper Black1","tipTitle":"shdsh","tipContent":"123123123"},"commonStyle":{"top":355,"left":563,"width":200,"height":84,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[{"type":"bounceIn","duration":1,"delay":0,"interationCount":1,"infinite":false}]}]},{"uuid":1589962289277,"title":"","elements":[{"name":"lbp-background","uuid":1589962289277,"pluginProps":{"uuid":1589962289277,"imgSrc":"/uploads/c4a3bc3fc16b4b9c8d621672043ed522.png","backgroundColor":"rgba(255, 255, 255, 0.2)"},"commonStyle":{"top":100,"left":100,"width":200,"height":200,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"custom-read","uuid":1590138819145,"pluginProps":{"uuid":1590138819145,"pluginType":"CUSTOM","items":[{"imageUrl":"/img/one.e2bf33c0.png","soundSpell":"one","soundUrl":"/media/one.test.fac93a10.mp3"},{"imageUrl":"/img/two.cc9abaa1.png","soundSpell":"two","soundUrl":"/media/one.test.fac93a10.mp3"},{"imageUrl":"/img/three.07c98ad0.png","soundSpell":"three","soundUrl":"/media/one.test.fac93a10.mp3"}],"activeIndex":0,"fontSize":14,"fontFamily":""},"commonStyle":{"top":47,"left":100,"width":616,"height":333,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]}]},{"uuid":1589962388787,"title":"","elements":[{"name":"lbp-background","uuid":1589962388787,"pluginProps":{"uuid":1589962388787,"imgSrc":"/uploads/c4a3bc3fc16b4b9c8d621672043ed522.png","backgroundColor":"rgba(255, 255, 255, 0.2)"},"commonStyle":{"top":100,"left":100,"width":200,"height":200,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]},{"name":"custom-sound-select","uuid":1589962397060,"pluginProps":{"uuid":1589962397060,"defaultInfo":{"sound":"/media/Touch_your_nose.7d9a84ae.mp3","rightPic":3,"lightPic":"/img/demo1-light.1d0faf1f.png","pictures":[{"pic":"/img/demo1.20ef42b5.png"},{"pic":"/img/demo2.cb1d21c6.png"},{"pic":"/img/demo3.365b869d.png"}]}},"commonStyle":{"top":68,"left":60,"width":656,"height":368,"zindex":999,"textAlign":"center","color":"#000000","backgroundColor":"rgba(255, 255, 255, 0)","fontSize":14},"events":[],"animations":[]}]}],"is_publish":false,"is_template":false,"created_at":"2020-05-20T08:06:04.944Z","updated_at":"2020-05-22T09:14:02.248Z"}</script>
+  <script src="./engine-assets/engine.umd.js"></script>
+
+  <style>
+    * {
+      outline: none;
+    }
+
+    .preview-wrapper {
+      display: flex;
+      flex-wrap: nowrap;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    .preview-wrapper .course-wrapper {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      background-color: transparent;
+      box-sizing: content-box;
+    }
+
+    .preview-wrapper .float-shortcuts {
+      position: fixed;
+      z-index: 999;
+      bottom: 28px;
+      right: 20px;
+      width: 200px;
+      height: 70px;
+      display: flex;
+    }
+
+    .preview-wrapper .float-shortcuts .float-shortcuts-btn {
+      flex: 1;
+    }
+
+    .preview-wrapper .float-shortcuts .page-controller {
+      width: 76px;
+      height: 62px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="preview-wrapper">
+      <div class="course-wrapper">
+        <!-- <div class="float-shortcuts">
+          <div class="float-shortcuts-btn">
+            <img src="./third-libs/slid-left.png" class="page-controller swiper-button-prev" />
+          </div>
+          <div class="float-shortcuts-btn">
+            <img src="./third-libs/slid-right.png" class="page-controller swiper-button-next" />
+          </div>
+        </div> -->
+        <engine />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Vue.component('engine', window.Engine)
+    new Vue({
+      el: '#app',
+      // router: new VueRouter([{ path: '/foo', component: { template: '<div>foo</div>' } }]),
+      data: {},
+      created() {},
+      mounted() {},
+      methods: {}
+    });
+  </script>
+  <script>
+    const swiperAnimation = new SwiperAnimation();
+
+    var mySwiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      touchRatio: 0,
+      direction: 'horizontal',
+      loop: false,
+      // If we need pagination
+      pagination: {
+        // el: '.swiper-pagination',
+        el: null
+      },
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      paginationClickable: false,
+      // And if we need scrollbar
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+      on: {
+        init: function () {
+          swiperAnimation.init(this).animate();
+        },
+        slideChange: function () {
+          window.swiperPageInit(this.activeIndex)
+
+          swiperAnimation.init(this).animate();
+        }
+      }
+    });
+
+    function displayMessage ({ origin, data }) {
+      console.log(origin, data, '页面是否可以接收到？')
+      if (origin === window.location.origin) {
+        window.swiperPageInit(data)
+
+        mySwiper.slideTo(data)
+      }
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener("message", displayMessage, false);
+    } else {
+      window.attachEvent("onmessage", displayMessage);
+    }
+
+    /* 客户端显示时 不可缺少的参数 */
+    /* 向客户端发送 totalPages, coursewareRatio */
+    window.onload = function() {
+      window.parent.postMessage(JSON.stringify({
+        method: 'onPagenum',
+        totalPages: mySwiper.slides.length
+      }), '*')
+      window.parent.postMessage(JSON.stringify({
+        method: "onLoadComplete",
+        coursewareRatio: 16 / 9
+      }),"*")
+    }
+  </script>
+</body>
+</html>
